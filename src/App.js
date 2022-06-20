@@ -8,6 +8,7 @@ import Image from 'react-bootstrap/Image';
 import Card from 'react-bootstrap/Card';
 import CardContainer from './CardContainer';
 import 'bootstrap/dist/css/bootstrap.min.css';
+import './app.css';
 
 function App() {
     return (
@@ -22,16 +23,18 @@ function App() {
                     </Nav>
                 </Container>
             </Navbar>
-            <div id='about' className='mt-5'>
+            <div id='about'>
                 <Container>
                     <Row>
-                        <Col>
+                        <Col className='mt-5'>
                             <Image
-                                src='https://media.geeksforgeeks.org/wp-content/uploads/20210425000233/test-300x297.png'
+                                src={require('./Images/pfp.png')}
                                 roundedCircle={true}
+                                alt='Profile picture'
+                                className='profile-pic '
                             ></Image>
                         </Col>
-                        <Col>
+                        <Col className='description-container mt-5'>
                             <p className='lead'>
                                 Lorem ipsum dolor, sit amet consectetur
                                 adipisicing elit. Id in sequi quos facere illum
@@ -44,13 +47,40 @@ function App() {
                 </Container>
             </div>
             <div id='projects'>
-                <Container className='mt-5'>
+                <Container className='mt-5 justify-content-center '>
                     <Row>
-                        <Col>
+                        <Col className='d-flex justify-content-center'>
                             <CardContainer
                                 link='https://github.com/TymeeK/final-project'
                                 title='Instagram Clone'
-                                description='asdfasdfasdf'
+                                description='An Instagram like website created with React as the frontend and Firebase as the backend.'
+                                image='./Images/finstagram.png'
+                            />
+                        </Col>
+                        <Col className='d-flex justify-content-center'>
+                            <CardContainer
+                                link='https://github.com/TymeeK/photo-tagging-app'
+                                title='Photo Tagging'
+                                description='An Instagram like website created with React as the frontend and Firebase as the backend.'
+                                image='./Images/finstagram.png'
+                            />
+                        </Col>
+                    </Row>
+                    <Row className='mt-5'>
+                        <Col className='d-flex justify-content-center'>
+                            <CardContainer
+                                link='https://github.com/TymeeK/battleship'
+                                title='Battleship'
+                                description='An Instagram like website created with React as the frontend and Firebase as the backend.'
+                                image='./Images/finstagram.png'
+                            />
+                        </Col>
+                        <Col className='d-flex justify-content-center'>
+                            <CardContainer
+                                link='https://github.com/TymeeK/battleship'
+                                title='Battleship'
+                                description='An Instagram like website created with React as the frontend and Firebase as the backend.'
+                                image='./Images/finstagram.png'
                             />
                         </Col>
                     </Row>

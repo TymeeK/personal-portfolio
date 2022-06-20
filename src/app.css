@@ -1,0 +1,25 @@
+.profile-pic {
+    max-width: 350px;
+}
+
+.description-container {
+    margin-right: 200px;
+    text-align: center;
+    padding-top: 50px;
+}
+
+#about {
+    background-color: aliceblue;
+}
+
+.card {
+    min-height: 300px;
+}
+.card-title {
+    display: inline;
+}
+.card-icon {
+    display: inline;
+    position: absolute;
+    right: 10px;
+}
