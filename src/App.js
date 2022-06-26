@@ -26,7 +26,7 @@ function App() {
             <div id='about'>
                 <Container>
                     <Row>
-                        <Col className='mt-5'>
+                        <Col className='mt-5 mb-5'>
                             <Image
                                 src={require('./Images/pfp.png')}
                                 roundedCircle={true}
@@ -36,11 +36,9 @@ function App() {
                         </Col>
                         <Col className='description-container mt-5'>
                             <p className='lead'>
-                                Lorem ipsum dolor, sit amet consectetur
-                                adipisicing elit. Id in sequi quos facere illum
-                                qui expedita dignissimos corrupti nisi non natus
-                                aspernatur, vitae sint labore minima aperiam
-                                odit nam laudantium?
+                                I am a Web Developer that is proficient in
+                                front-end technologies such as HTML, CSS,
+                                JavaScript, and ReactJS
                             </p>
                         </Col>
                     </Row>
@@ -48,6 +46,7 @@ function App() {
             </div>
             <div id='projects'>
                 <Container className='mt-5 justify-content-center '>
+                    <h2>Projects</h2>
                     <Row>
                         <Col className='d-flex justify-content-center'>
                             <CardContainer
@@ -61,29 +60,32 @@ function App() {
                             <CardContainer
                                 link='https://github.com/TymeeK/photo-tagging-app'
                                 title='Photo Tagging'
-                                description='An Instagram like website created with React as the frontend and Firebase as the backend.'
-                                image='./Images/finstagram.png'
-                            />
-                        </Col>
-                    </Row>
-                    <Row className='mt-5'>
-                        <Col className='d-flex justify-content-center'>
-                            <CardContainer
-                                link='https://github.com/TymeeK/battleship'
-                                title='Battleship'
-                                description='An Instagram like website created with React as the frontend and Firebase as the backend.'
-                                image='./Images/finstagram.png'
+                                description='A photo tagging website application where users are timed for finding Waldo, Odlaw, and Wizard.'
+                                image='./Images/photo-tagging.png'
                             />
                         </Col>
                         <Col className='d-flex justify-content-center'>
                             <CardContainer
+                                link='https://github.com/TymeeK/memory-card'
+                                title='Memory Card'
+                                description='A memorization Star Wars game made using React hooks'
+                                image='./Images/memory-card.png'
+                            />
+                        </Col>
+                        <Col className='d-flex justify-content-center'>
+                            <CardContainer
                                 link='https://github.com/TymeeK/battleship'
                                 title='Battleship'
-                                description='An Instagram like website created with React as the frontend and Firebase as the backend.'
-                                image='./Images/finstagram.png'
+                                description='A JavaScript project compiled using webpack and tested using Jest.'
+                                image='./Images/battleship.png'
                             />
                         </Col>
                     </Row>
+                </Container>
+            </div>
+            <div id='contact'>
+                <Container>
+                    <h2 className='mt-5'>Contact information</h2>
                 </Container>
             </div>
         </>
