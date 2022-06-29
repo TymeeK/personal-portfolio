@@ -13,20 +13,28 @@ import './app.css';
 function App() {
     return (
         <>
-            <Navbar bg='light' expand='lg'>
+            <Navbar expand='lg' className='nav hidden-md hidden-lg'>
                 <Container>
-                    <Navbar.Brand>Tymee Kong</Navbar.Brand>
+                    <Navbar.Brand style={{ color: 'white' }}>
+                        Tymee Kong
+                    </Navbar.Brand>
                     <Nav className='me-auto'>
-                        <Nav.Link href='#about'>About</Nav.Link>
-                        <Nav.Link href='#projects'>Projects</Nav.Link>
-                        <Nav.Link href='#contact'>Contact</Nav.Link>
+                        <Nav.Link href='#about' style={{ color: 'white' }}>
+                            About
+                        </Nav.Link>
+                        <Nav.Link href='#projects' style={{ color: 'white' }}>
+                            Projects
+                        </Nav.Link>
+                        <Nav.Link href='#contact' style={{ color: 'white' }}>
+                            Contact
+                        </Nav.Link>
                     </Nav>
                 </Container>
             </Navbar>
             <div id='about'>
                 <Container>
-                    <Row>
-                        <Col className='mt-5 mb-5'>
+                    <Row className='about-container'>
+                        <Col className='mt-5 mb-5 image-container'>
                             <Image
                                 src={require('./Images/pfp.png')}
                                 roundedCircle={true}
@@ -36,16 +44,18 @@ function App() {
                         </Col>
                         <Col className='description-container mt-5'>
                             <p className='lead'>
-                                I am a Web Developer that is proficient in
-                                front-end technologies such as HTML, CSS,
-                                JavaScript, and ReactJS
+                                I am a CSULB Computer Science graduate. I
+                                specialize in web development and I am
+                                proficient in front-end technologies such as
+                                HTML, CSS, JavaScript, and ReactJS. I'm also
+                                proficient in Java, Python, C#, and Git.
                             </p>
                         </Col>
                     </Row>
                 </Container>
             </div>
             <div id='projects'>
-                <Container className='mt-5 justify-content-center '>
+                <Container className='pb-5 pt-5 justify-content-center'>
                     <h2>Projects</h2>
                     <Row>
                         <Col className='d-flex justify-content-center'>
@@ -84,8 +94,14 @@ function App() {
                 </Container>
             </div>
             <div id='contact'>
-                <Container>
-                    <h2 className='mt-5'>Contact information</h2>
+                <Container className='pt-5 pb-5'>
+                    <h2>Contact information</h2>
+                    <h3>
+                        Phone number: <br></br>562-284-9847
+                    </h3>
+                    <h3>
+                        Email address: <br></br>tymeekong562@gmail.com
+                    </h3>
                 </Container>
             </div>
         </>

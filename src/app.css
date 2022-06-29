@@ -4,12 +4,20 @@
 
 .description-container {
     margin-right: 200px;
-    text-align: center;
     padding-top: 50px;
 }
 
 #about {
-    background-color: aliceblue;
+    background-color: #ffba49;
+}
+#projects {
+    background-color: #20a39e;
+}
+#contact {
+    background-color: #ef5b5b;
+}
+.nav {
+    background-color: #a4a9ad;
 }
 
 .card {
@@ -22,4 +30,22 @@
     display: inline;
     position: absolute;
     right: 10px;
+}
+
+@media (max-width: 576px) {
+    .description-container {
+        min-width: 300px;
+        margin-left: 40px;
+    }
+    .image-container {
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
 }
