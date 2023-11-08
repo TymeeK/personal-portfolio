@@ -1,12 +1,12 @@
 import React from 'react';
 import Card from 'react-bootstrap/Card';
-import './app.css';
+import '../../app.css';
 
 export default function CardContainer(props) {
     return (
         <>
             <Card className='card' style={{ width: '18rem' }}>
-                <Card.Img variant='top' src={require(`${props.image}`)} />
+                <Card.Img variant='top' src={props.image} />
                 <Card.Body>
                     <div>
                         <Card.Title>
