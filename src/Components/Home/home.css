@@ -1,0 +1,113 @@
+body {
+}
+.profile-pic {
+    max-width: 350px;
+    max-height: 350px;
+}
+h1,
+h2,
+h4 {
+    font-family: Georgia, 'Times New Roman', Times, serif;
+    color: #f6e8ea;
+}
+#greeting {
+    text-align: center;
+}
+
+.description-container {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-evenly;
+}
+#whole-container {
+    background-color: #111;
+    z-index: -1;
+}
+#about-top {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+}
+#about-bot {
+    height: 100vh;
+    width: 100vw;
+    display: flex;
+    align-items: center;
+    /* background-color: white; */
+}
+
+.nav {
+    background-color: transparent;
+    position: fixed;
+    top: 0;
+    width: 100%;
+}
+
+.card {
+    min-height: 300px;
+}
+.card-title {
+    display: inline;
+}
+.card-icon {
+    display: inline;
+    position: absolute;
+    right: 10px;
+}
+.image-container {
+    display: flex;
+    justify-content: center;
+}
+
+.profile-pic {
+    border: 10px solid #22181c;
+    border-radius: 500px;
+}
+
+.about-container {
+    border-radius: 25px;
+    margin-top: 25px;
+}
+
+h2 {
+    color: #1f2421;
+}
+
+.about-bot-container {
+    /* background-color: red; */
+    display: flex;
+    align-items: center;
+}
+
+.bot-desc {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    /* background-color: blue; */
+    text-align: center;
+}
+
+.bot-title {
+    text-align: center;
+    top: 0;
+    margin-bottom: 50px;
+}
+
+@media (max-width: 576px) {
+    .description-container {
+        min-width: 300px;
+        margin-left: 40px;
+    }
+    .image-container {
+    }
+
+    h2 {
+        text-align: center;
+        margin-bottom: 20px;
+    }
+
+    .card {
+        margin-bottom: 20px;
+    }
+}
