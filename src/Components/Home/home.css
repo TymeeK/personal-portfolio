@@ -1,15 +1,8 @@
-body {
-}
 .profile-pic {
     max-width: 350px;
     max-height: 350px;
 }
-h1,
-h2,
-h4 {
-    font-family: Georgia, 'Times New Roman', Times, serif;
-    color: #f6e8ea;
-}
+
 #greeting {
     text-align: center;
 }
@@ -20,7 +13,6 @@ h4 {
     justify-content: space-evenly;
 }
 #whole-container {
-    background-color: #111;
     z-index: -1;
 }
 #about-top {
@@ -35,13 +27,6 @@ h4 {
     display: flex;
     align-items: center;
     /* background-color: white; */
-}
-
-.nav {
-    background-color: transparent;
-    position: fixed;
-    top: 0;
-    width: 100%;
 }
 
 .card {
@@ -85,7 +70,8 @@ h2 {
     justify-content: center;
     flex-direction: column;
     /* background-color: blue; */
-    text-align: center;
+    text-align: left;
+    padding-left: 25px;
 }
 
 .bot-title {

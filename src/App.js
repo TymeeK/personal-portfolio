@@ -1,12 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
-import { BrowserRouter, Routes, Route } from 'react-router-dom';
+import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
 import Home from './Components/Home/Home';
 import Projects from './Components/Projects/Projects';
 import Contact from './Components/Contact/Contact';
 
 function App() {
+    const location = useLocation();
     return (
         <BrowserRouter>
             <Routes>

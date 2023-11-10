@@ -4,11 +4,14 @@ import Col from 'react-bootstrap/Col';
 import CardContainer from './CardContainer';
 import Container from 'react-bootstrap/Container';
 import NavBar from '../Navigation/NavBar';
+import Particle from '../../Particle';
+import '../../app.css';
 
 export default function Projects() {
     return (
         <>
             <NavBar />
+            <Particle />
             <div id='projects'>
                 <Container className='pb-5 pt-5 justify-content-center'>
                     <h2>Projects</h2>

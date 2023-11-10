@@ -14,16 +14,20 @@ export default function Particle() {
     const options = {
         particles: {
             number: {
-                value: 100,
+                value: 160,
+                density: {
+                    enable: true,
+                    value_area: 1500,
+                },
             },
             move: {
-                direction: 'none',
+                direction: 'right',
                 enable: true,
                 outModes: {
                     default: 'out',
                 },
                 random: true,
-                speed: 0.1,
+                speed: 0.2,
                 straight: false,
             },
             opacity: {
@@ -35,7 +39,7 @@ export default function Particle() {
                 value: { min: 0, max: 1 },
             },
             size: {
-                value: { min: 1, max: 3 },
+                value: 1,
             },
         },
     };

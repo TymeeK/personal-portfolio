@@ -2,6 +2,7 @@ import React from 'react';
 import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Container } from 'react-bootstrap';
+import './nav.css';
 
 export default function NavBar() {
     return (
@@ -10,14 +11,26 @@ export default function NavBar() {
                 <Navbar.Brand style={{ color: 'white' }}>
                     Tymee Kong
                 </Navbar.Brand>
-                <Nav className='me-auto'>
-                    <Nav.Link href='/' style={{ color: 'white' }}>
+                <Nav className='link-container me-auto'>
+                    <Nav.Link
+                        className='nav-text'
+                        href='/'
+                        style={{ color: 'white' }}
+                    >
                         Home
                     </Nav.Link>
-                    <Nav.Link href='/projects' style={{ color: 'white' }}>
+                    <Nav.Link
+                        className='nav-text'
+                        href='/projects'
+                        style={{ color: 'white' }}
+                    >
                         Projects
                     </Nav.Link>
-                    <Nav.Link href='/contact' style={{ color: 'white' }}>
+                    <Nav.Link
+                        className='nav-text'
+                        href='/contact'
+                        style={{ color: 'white' }}
+                    >
                         Contact
                     </Nav.Link>
                 </Nav>
