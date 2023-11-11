@@ -12,7 +12,8 @@
 }
 
 .tech-container {
-    font-size: 4.5em;
+    font-size: 6.5em;
+    width: 4em;
     margin: 15px;
     padding: 25px;
     opacity: 0.93;
@@ -20,9 +21,9 @@
     vertical-align: middle;
     text-align: center;
     border-radius: 5px;
-    display: table;
 }
 
 .tech-container:hover {
     border: 2.5px solid white;
+    box-shadow: rgba(255, 255, 255, 1) 0px 3px 8px 3px;
 }

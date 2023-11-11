@@ -3,6 +3,12 @@ import Navbar from 'react-bootstrap/Navbar';
 import Nav from 'react-bootstrap/Nav';
 import { Container } from 'react-bootstrap';
 import './nav.css';
+import {
+    AiOutlineContacts,
+    AiOutlineDatabase,
+    AiOutlineHome,
+    AiOutlineProject,
+} from 'react-icons/ai';
 
 export default function NavBar() {
     return (
@@ -17,6 +23,7 @@ export default function NavBar() {
                         href='/'
                         style={{ color: 'white' }}
                     >
+                        <AiOutlineHome />
                         Home
                     </Nav.Link>
                     <Nav.Link
@@ -24,6 +31,7 @@ export default function NavBar() {
                         className='nav-text'
                         style={{ color: 'white' }}
                     >
+                        <AiOutlineDatabase />
                         Skills
                     </Nav.Link>
                     <Nav.Link
@@ -31,6 +39,7 @@ export default function NavBar() {
                         href='/projects'
                         style={{ color: 'white' }}
                     >
+                        <AiOutlineProject />
                         Projects
                     </Nav.Link>
                     <Nav.Link
@@ -38,6 +47,7 @@ export default function NavBar() {
                         href='/contact'
                         style={{ color: 'white' }}
                     >
+                        <AiOutlineContacts />
                         Contact
                     </Nav.Link>
                 </Nav>
