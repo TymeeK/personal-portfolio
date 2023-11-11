@@ -20,6 +20,13 @@ export default function NavBar() {
                         Home
                     </Nav.Link>
                     <Nav.Link
+                        href='/skills'
+                        className='nav-text'
+                        style={{ color: 'white' }}
+                    >
+                        Skills
+                    </Nav.Link>
+                    <Nav.Link
                         className='nav-text'
                         href='/projects'
                         style={{ color: 'white' }}

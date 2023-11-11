@@ -1,0 +1,9 @@
+.card {
+    background-color: #000;
+    border-color: white;
+    border-radius: 25px;
+}
+
+#projects {
+    margin-top: 100px;
+}

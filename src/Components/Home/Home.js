@@ -7,12 +7,20 @@ import NavBar from '../Navigation/NavBar';
 import ReactTyped from 'react-typed';
 import './home.css';
 import Particle from '../../Particle';
+import { motion } from 'framer-motion';
+
 export default function Home() {
     return (
         <>
             <NavBar />
             <Particle />
-            <div id='whole-container'>
+            <motion.div
+                id='whole-container'
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1 }}
+            >
                 <div id='about-top'>
                     <Container>
                         <Row className='about-container'>
@@ -61,7 +69,7 @@ export default function Home() {
                                     <h4>
                                         Proficient in front-end technologies
                                         such as HTML, CSS, JavaScript, and
-                                        ReactJS.
+                                        React.js.
                                     </h4>
                                 </div>
                             </Col>
@@ -76,7 +84,7 @@ export default function Home() {
                         </Row>
                     </Container>
                 </div>
-            </div>
+            </motion.div>
         </>
     );
 }

@@ -6,15 +6,21 @@ import Container from 'react-bootstrap/Container';
 import NavBar from '../Navigation/NavBar';
 import Particle from '../../Particle';
 import '../../app.css';
+import { motion } from 'framer-motion';
 
 export default function Projects() {
     return (
         <>
             <NavBar />
             <Particle />
-            <div id='projects'>
+            <motion.div
+                initial={{ opacity: 0 }}
+                animate={{ opacity: 1 }}
+                exit={{ opacity: 0 }}
+                transition={{ duration: 1 }}
+                id='projects'
+            >
                 <Container className='pb-5 pt-5 justify-content-center'>
-                    <h2>Projects</h2>
                     <Row>
                         <Col className='d-flex justify-content-center'>
                             <CardContainer
@@ -50,7 +56,7 @@ export default function Projects() {
                         </Col>
                     </Row>
                 </Container>
-            </div>
+            </motion.div>
         </>
     );
 }

@@ -1,20 +1,13 @@
 import React from 'react';
 import 'bootstrap/dist/css/bootstrap.min.css';
 import './app.css';
-import { BrowserRouter, Routes, Route, useLocation } from 'react-router-dom';
-import Home from './Components/Home/Home';
-import Projects from './Components/Projects/Projects';
-import Contact from './Components/Contact/Contact';
+import { BrowserRouter } from 'react-router-dom';
+import Animation from './Components/Animation/Animation';
 
 function App() {
-    const location = useLocation();
     return (
         <BrowserRouter>
-            <Routes>
-                <Route path='/' element={<Home />} />
-                <Route path='/projects' element={<Projects />} />
-                <Route path='/contact' element={<Contact />} />
-            </Routes>
+            <Animation />
         </BrowserRouter>
     );
 }
