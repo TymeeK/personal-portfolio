@@ -1,8 +1,6 @@
 # Portfolio Website
 
-Hi There! I'm Tymee Kong and this is my portfolio website.
-
-<a href='https://personal-portfolio-bnox6prcn-tymee-kongs-projects.vercel.app/' target='_blank'>My website</a>
+Hi There! I'm Tymee Kong and this is my <a href='https://personal-portfolio-bnox6prcn-tymee-kongs-projects.vercel.app/' target='_blank'>portfolio website</a>
 
 ## Technologies used
 
@@ -16,7 +14,7 @@ This project was built with:
 -Vercel  
 -MacOS  
 -CSS3  
--framer-motion
+-Framer-Motion
 
 ## Features
 
