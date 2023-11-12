@@ -11,7 +11,7 @@ export default function Animation() {
     return (
         <AnimatePresence mode='wait'>
             <Routes location={location} key={location.pathname}>
-                <Route path='/home' element={<Home />} />
+                <Route path='/' element={<Home />} />
                 <Route path='/skills' element={<Skills />} />
                 <Route path='/projects' element={<Projects />} />
                 <Route path='/contact' element={<Contact />} />
