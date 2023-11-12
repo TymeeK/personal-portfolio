@@ -8,20 +8,20 @@ Hi There! I'm Tymee Kong and this is my portfolio website.
 
 This project was built with:
 
--JavaScript
--React.js
--React-Bootstrap
--Visual Studio Code
--React-Router
--Vercel
--MacOS
--CSS3
+-JavaScript  
+-React.js  
+-React-Bootstrap  
+-Visual Studio Code  
+-React-Router  
+-Vercel  
+-MacOS  
+-CSS3  
 -framer-motion
 
 ## Features
 
-Multi-page layout
-Simple page animations
+Multi-page layout  
+Simple page animations  
 Styled with React-Bootstrap and CSS3
 
 ## Installation
