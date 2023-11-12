@@ -1,18 +1,15 @@
 {
   "files": {
-    "main.css": "/personal-portfolio/static/css/main.7a412b10.css",
-    "main.js": "/personal-portfolio/static/js/main.b2fa24a5.js",
-    "static/media/photo-tagging.png": "/personal-portfolio/static/media/photo-tagging.4b7a22c22f5a2bd0125b.png",
+    "main.css": "/personal-portfolio/static/css/main.8ed4ac3d.css",
+    "main.js": "/personal-portfolio/static/js/main.0e72b6de.js",
+    "static/media/pfp2.JPG": "/personal-portfolio/static/media/pfp2.9f65e3e1492c61b95c50.JPG",
     "static/media/pfp.png": "/personal-portfolio/static/media/pfp.585af21c756bbc74224e.png",
-    "static/media/memory-card.png": "/personal-portfolio/static/media/memory-card.22f58ab495ec4821f062.png",
-    "static/media/finstagram.png": "/personal-portfolio/static/media/finstagram.a84b1220eaa6332e9f9b.png",
-    "static/media/battleship.png": "/personal-portfolio/static/media/battleship.77b7f17b7ac24226a0f6.png",
     "index.html": "/personal-portfolio/index.html",
-    "main.7a412b10.css.map": "/personal-portfolio/static/css/main.7a412b10.css.map",
-    "main.b2fa24a5.js.map": "/personal-portfolio/static/js/main.b2fa24a5.js.map"
+    "main.8ed4ac3d.css.map": "/personal-portfolio/static/css/main.8ed4ac3d.css.map",
+    "main.0e72b6de.js.map": "/personal-portfolio/static/js/main.0e72b6de.js.map"
   },
   "entrypoints": [
-    "static/css/main.7a412b10.css",
-    "static/js/main.b2fa24a5.js"
+    "static/css/main.8ed4ac3d.css",
+    "static/js/main.0e72b6de.js"
   ]
 }
