@@ -21,7 +21,7 @@ export default function Contact() {
                 id='contact'
                 className='whole-container'
             >
-                <Container className='contact-container pt-5 pb-5'>
+                <Container className='contact-container pt-5 pb-5 ' fluid>
                     <h1>Contact me on my socials!</h1>
                     <Row>
                         <Col className='tech-container'>
