@@ -29,7 +29,7 @@ export default function NavBar() {
                     <Nav className='link-container me-auto'>
                         <Nav.Link
                             className='nav-text'
-                            href='/'
+                            href='personal-portfolio/'
                             style={{ color: 'white' }}
                         >
                             <AiOutlineHome />
