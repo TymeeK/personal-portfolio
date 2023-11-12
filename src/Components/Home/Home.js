@@ -4,10 +4,10 @@ import Row from 'react-bootstrap/Row';
 import Col from 'react-bootstrap/Col';
 import Image from 'react-bootstrap/Image';
 import NavBar from '../Navigation/NavBar';
-import ReactTyped from 'react-typed';
 import './home.css';
 import Particle from '../../Particle';
 import { motion } from 'framer-motion';
+import Typewriter from 'typewriter-effect';
 
 export default function Home() {
     return (
@@ -30,13 +30,15 @@ export default function Home() {
                                 </div>
                                 <div>
                                     <h1 className='typewriter'>
-                                        <ReactTyped
-                                            strings={[
-                                                'Welcome to my personal portfolio',
-                                            ]}
-                                            typeSpeed={50}
-                                            loop
-                                            backSpeed={50}
+                                        <Typewriter
+                                            options={{
+                                                strings: [
+                                                    'Welcome to my personal portfolio',
+                                                ],
+                                                autoStart: true,
+                                                loop: true,
+                                                deleteSpeed: 50,
+                                            }}
                                         />
                                     </h1>
                                 </div>

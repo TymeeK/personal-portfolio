@@ -6,7 +6,7 @@ import Animation from './Components/Animation/Animation';
 
 function App() {
     return (
-        <BrowserRouter>
+        <BrowserRouter basename='personal-portfolio'>
             <Animation />
         </BrowserRouter>
     );

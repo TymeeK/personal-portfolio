@@ -29,14 +29,14 @@ export default function NavBar() {
                     <Nav className='link-container me-auto'>
                         <Nav.Link
                             className='nav-text'
-                            href='personal-portfolio/'
+                            href='home'
                             style={{ color: 'white' }}
                         >
                             <AiOutlineHome />
                             Home
                         </Nav.Link>
                         <Nav.Link
-                            href='/skills'
+                            href='skills'
                             className='nav-text'
                             style={{ color: 'white' }}
                         >
@@ -45,7 +45,7 @@ export default function NavBar() {
                         </Nav.Link>
                         <Nav.Link
                             className='nav-text'
-                            href='/projects'
+                            href='projects'
                             style={{ color: 'white' }}
                         >
                             <AiOutlineProject />
@@ -53,7 +53,7 @@ export default function NavBar() {
                         </Nav.Link>
                         <Nav.Link
                             className='nav-text'
-                            href='/contact'
+                            href='contact'
                             style={{ color: 'white' }}
                         >
                             <AiOutlineContacts />
